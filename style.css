@@ -21,3 +21,8 @@ section{
 .padding{
     padding:20px 0;
 }
+.blocco-testo{
+    min-height: 150px;
+    width: 350px;
+    background-color: aqua;
+}
