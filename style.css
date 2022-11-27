@@ -5,6 +5,9 @@ header, footer{
 .green{
     background-color:rgba(26,188,156,255);
 }
+.blue{
+    background-color: rgba(58,84,109,255);
+}
 .square-pic{
     height: 16rem;
 }
@@ -30,9 +33,27 @@ section{
 .blocco-testo{
     width: 350px;
 }
-.blue{
-    background-color: rgba(58,84,109,255);
-}
 .bkg_black{
     background-color: black;
+}
+.form textarea{
+    min-height: 200px;
+}
+.form input, .form textarea{
+    border-radius: 0;
+    border-width: 0 0 1px 0;
+    border-color: black;
+}
+.form .form-control{
+    padding-left: 0;
+}
+.form ::placeholder{
+    color: black;
+}
+.form-control:focus{
+    box-shadow: 0 0 0;
+    border-color: black;
+}
+.btn:hover{
+    background-color:rgba(26,188,156,255) ;
 }
